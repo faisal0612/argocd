@@ -1,0 +1,13 @@
+project: default
+source:
+  repoURL: >-
+    https://git-enterprise-jc.onefiserv.net/ftscontainerservices/developer-namespaces/fiservapp1.git
+  path: cluster/qdosxdftsm0001/overlays/all-overlays
+  targetRevision: HEAD
+destination:
+  server: 'https://kubernetes.default.svc'
+  namespace: openshift-gitops
+syncPolicy:
+  syncOptions:
+    - Validate=false
+    - CreateNamespace=true
