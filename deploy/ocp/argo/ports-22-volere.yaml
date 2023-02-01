@@ -1,0 +1,13 @@
+kind: GlobalNetworkSet
+apiVersion: projectcalico.org/v1
+metadata:
+  name: ports-22
+  labels:
+    ports: '22'
+spec:
+  nets: []
+  allowedEgressDomains:
+  - volere.in
+
+
+
