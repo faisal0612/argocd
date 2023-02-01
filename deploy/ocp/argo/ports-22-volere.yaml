@@ -1,5 +1,5 @@
 kind: GlobalNetworkSet
-apiVersion: projectcalico.org/v1
+apiVersion: projectcalico.org/v3
 metadata:
   name: ports-22
   labels:
