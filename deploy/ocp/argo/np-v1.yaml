@@ -1,11 +1,11 @@
-apiVersion: projectcalico.org/v1
+apiVersion: projectcalico.org/v3
 kind: GlobalNetworkPolicy
 metadata:
   name: platform.allow-egress-svc-k8s-default2
   #namespace: fiservapp1-dev-api
 spec:
-  tier: platform
-  order: 110
+  tier: default
+  order: 210
   selector: all()
   serviceAccountSelector: ''
   egress:
