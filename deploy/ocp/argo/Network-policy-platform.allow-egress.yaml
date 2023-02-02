@@ -1,7 +1,7 @@
 apiVersion: projectcalico.org/v3
 kind: NetworkPolicy
 metadata:
-  name: platform.allow-egress-svc-k8s-default2
+  name: faisal-test-np
   namespace: fiservapp1-dev-api
 spec:
   tier: platform
