@@ -1,5 +1,5 @@
 apiVersion: projectcalico.org/v3
-kind: platform.allow-v1
+kind: NetworkPolicy
 metadata:
   name: faisaltestnp
   namespace: fiservapp1-dev-api
