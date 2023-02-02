@@ -1,7 +1,7 @@
 apiVersion: projectcalico.org/v3
 kind: NetworkPolicy
 metadata:
-  name: platform.faisaltestnp
+  name: platform.jabytestnp
   namespace: fiservapp1-dev-api
 spec:
   tier: platform
