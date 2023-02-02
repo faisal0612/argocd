@@ -2,7 +2,7 @@ apiVersion: projectcalico.org/v3
 kind: NetworkPolicy
 metadata:
   name: defaultnspolicy
-  namespace: default
+  #namespace: default
 spec:
   tier: platform
   order: 111
