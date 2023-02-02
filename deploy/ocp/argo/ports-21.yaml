@@ -5,9 +5,10 @@ metadata:
   labels:
     ports: '21'
 spec:
-  nets: []
+  
   allowedEgressDomains:
   - fasaanay.com
+  nets: []
 
 
 
